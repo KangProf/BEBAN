@@ -833,7 +833,7 @@ def buildblock(size):
 def usage():
 	print 'Example: python2 Berat.py http://contoh.com'
 	print "\a"
-print '--------------------------------------------------'
+print \
 """                        
 __________________________________________________
 
