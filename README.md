@@ -1,3 +1,3 @@
 # Run
 
-$python2 Beban.py http://example.com
+$python2 Berat.py http://example.com
